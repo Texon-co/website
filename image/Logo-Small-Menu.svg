@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.539" x2="0" y2="0.55" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a5e9ff"/>
+      <stop offset="1" stop-color="#1e3c6b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="0.461" x2="1" y2="0.45" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Logo_Small_Menu" data-name="Logo Small Menu" transform="translate(13547.693 6038.797)">
+    <g id="Group_219" data-name="Group 219" transform="translate(-13543.693 -6024.149)">
+      <path id="Path_287" data-name="Path 287" d="M1556.782,1204.891l-10.459-10.459a2.547,2.547,0,1,0-1.841,1.841l10.459,10.459-3.842,3.842,1.841,1.841,9.526-9.526-1.841-1.841Zm-13.608-11.767a.962.962,0,1,1,0,1.361A.962.962,0,0,1,1543.174,1193.124Z" transform="translate(-1541.307 -1191.257)" fill="url(#linear-gradient)"/>
+      <path id="Path_288" data-name="Path 288" d="M1546.99,1198.781l10.459,10.459a2.547,2.547,0,1,0,1.841-1.841l-10.459-10.459,3.842-3.842-1.841-1.841-9.526,9.526,1.841,1.841Zm13.608,11.767a.962.962,0,1,1,0-1.361A.962.962,0,0,1,1560.6,1210.548Z" transform="translate(-1514.465 -1185.71)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Group_220" data-name="Group 220" transform="translate(-13506.34 -6034.797) rotate(90)">
+      <path id="Path_287-2" data-name="Path 287" d="M15.475,13.634,5.016,3.175A2.547,2.547,0,1,0,3.175,5.016L13.634,15.475,9.791,19.317l1.841,1.841,9.526-9.526L19.317,9.791ZM1.867,1.867a.962.962,0,1,1,0,1.361A.962.962,0,0,1,1.867,1.867Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      <path id="Path_288-2" data-name="Path 288" d="M5.683,7.525,16.143,17.984a2.547,2.547,0,1,0,1.841-1.841L7.525,5.683l3.842-3.842L9.526,0,0,9.526l1.841,1.841ZM19.291,19.292a.962.962,0,1,1,0-1.361A.962.962,0,0,1,19.291,19.292Z" transform="translate(26.842 5.547)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <rect id="Rectangle_111" data-name="Rectangle 111" width="56" height="56" transform="translate(-13547.693 -6038.797)" fill="none"/>
+  </g>
+</svg>
