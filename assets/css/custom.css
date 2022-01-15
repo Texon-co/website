@@ -7,3 +7,96 @@
     vertical-align: text-top;
     margin: 0px 5px;
 }
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.testimonials .member {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #343a40;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonials .member .member-info {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
+}
+
+.testimonials .member .member-info-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    transition: bottom 0.4s;
+}
+
+.testimonials .member .member-info-content h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.testimonials .member .member-info-content span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+}
+
+.testimonials .member .social {
+    position: absolute;
+    left: 0;
+    bottom: -38px;
+    right: 0;
+    height: 48px;
+    transition: bottom ease-in-out 0.4s;
+    text-align: center;
+}
+
+.testimonials .member .social a {
+    transition: color 0.3s;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.testimonials .member .social a:hover {
+    color: #fff;
+}
+
+.testimonials .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+}
+
+.testimonials .member:hover .member-info {
+    background: linear-gradient(0deg, rgba(12, 17, 26, 0.9) 0%, rgba(20, 29, 43, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.testimonials .member:hover .member-info-content {
+    bottom: 60px;
+    transition: bottom 0.4s;
+}
+
+.testimonials .member:hover .social {
+    bottom: 0;
+    transition: bottom ease-in-out 0.4s;
+}
+
+.slogan {
+    font-size: 55px !important;
+}
+
+span.colored{
+    color: #A5E9FF;
+}
