@@ -100,3 +100,7 @@
 span.colored{
     color: #A5E9FF;
 }
+
+.testimonials .member .member-info-content p {
+    color: #fff;
+}
