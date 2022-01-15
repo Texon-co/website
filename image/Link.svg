@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <g id="Link" transform="translate(-1333 -15495)">
-    <rect id="Rectangle_55" data-name="Rectangle 55" width="24" height="24" transform="translate(1333 15495)" fill="none"/>
-    <path id="instagram" d="M16.19,2H7.81C4.17,2,2,4.17,2,7.81v8.37C2,19.83,4.17,22,7.81,22h8.37c3.64,0,5.81-2.17,5.81-5.81V7.81C22,4.17,19.83,2,16.19,2Z" transform="translate(1333 15495)" fill="#007ab9"/>
-    <g id="Group_195" data-name="Group 195" transform="translate(1323.384 15455.117)">
-      <path id="Path_233" data-name="Path 233" d="M37.068,29.827v3.7H34.924v-3.45c0-.866-.31-1.458-1.086-1.458a1.173,1.173,0,0,0-1.1.784,1.467,1.467,0,0,0-.071.522v3.6H30.524s.029-5.843,0-6.448h2.144v.914c0,.007-.01.014-.014.021h.014v-.021A2.129,2.129,0,0,1,34.6,26.926c1.41,0,2.468.922,2.468,2.9Zm-8.787-5.858a1.117,1.117,0,1,0-.028,2.228h.014a1.118,1.118,0,1,0,.014-2.228ZM27.2,33.525h2.143V27.077H27.2Z" transform="translate(-10.452 22.914)" fill="#f1f2f2"/>
-    </g>
-  </g>
-</svg>
