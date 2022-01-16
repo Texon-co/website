@@ -72,9 +72,9 @@
         <div class="container d-flex flex-column align-items-center justify-content-center" data-aos="fade-up">
             <h2 class="slogan">Powered by <span class="colored">Intellect</span></h2>
             <h3 class="slogan"><span class="colored">Driven</span> by Values</h3>
-            <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
-            <img src="assets/img/hero-img.png" class="img-fluid hero-img" alt="" data-aos="zoom-in"
-                data-aos-delay="150">
+            <!-- <img src="assets/img/hero-img.png" class="img-fluid hero-img" alt="" data-aos="zoom-in"
+                data-aos-delay="150"> -->
+            <div id="motion-container"></div>
         </div>
 
     </section><!-- End Hero -->
@@ -214,8 +214,8 @@
                         <img src="assets/img/development.svg" class="img-fluid" alt="">
                     </div>
                     <div class="col-md-7 pt-4" data-aos="fade-left" data-aos-delay="100">
-                        <h3>Developing Customized
-                            Software and Systems</h3>
+                        <h3>Developing <span class="colored">Customized<br>
+                            Software</span> and Systems</h3>
                         <p class="fst-italic">
                             Get access to the talent, resources, and knowledge you need to create unique software and system solutions that fully support business processes, provide a consistent user ...
                         </p>
@@ -234,8 +234,8 @@
                         <img src="assets/img/customization-and-configuration.svg" class="img-fluid" alt="">
                     </div>
                     <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
-                        <h3>Customization and configuration
-                            of the application</h3>
+                        <h3><span class="colored">Customization</span> and <span class="colored">Configuration</span><br>
+                            of the Application</h3>
                         <p class="fst-italic">
                             Customize and modify COTS business software to match specific requirements and to completely support simplified operations, ideation, and growth.
                         </p>
@@ -247,8 +247,8 @@
                         <img src="assets/img/application-systems-support.svg" class="img-fluid" alt="">
                     </div>
                     <div class="col-md-7 pt-5" data-aos="fade-left">
-                        <h3>Application systems:<br>
-                            Support and Monitoring</h3>
+                        <h3>Application Systems:<br>
+                            <span class="colored">Support</span> and <span class="colored">Monitoring</span></h3>
                         <p>Texon can help clients ensure that their outsourced software solutions, modernized legacy systems, and customized business apps continue to perform at their best over time.</p>
                         <ul>
                             <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -984,6 +984,18 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script> -->
+    <script src="assets/js/lottie.min.js"></script>
+    <script>
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById('motion-container'),
+            path: 'assets/js/motion.json',
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            name: "Animation Texon",
+        });
+    </script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
