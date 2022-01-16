@@ -104,3 +104,19 @@ span.colored{
 .testimonials .member .member-info-content p {
     color: #fff;
 }
+
+@media (max-width: 992px) {
+    #hero h2 {
+        line-height: auto !important;
+    }
+    #why .row {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+}
+
+@media (max-width: 767px) {
+    .steps .content-item {
+        border-left: none;
+    }
+}
