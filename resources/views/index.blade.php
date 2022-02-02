@@ -11,5 +11,6 @@
 @section('main')
     @include('index.section_about')
     @include('index.section_features')
+    @include('index.section_steps')
     @include('index.section_testimonials')
 @endsection
