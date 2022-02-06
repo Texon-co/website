@@ -70,7 +70,7 @@
                 <div class="swiper-slide">
                     <div class="testimonial-item">
                         <div class="member">
-                            <img src="assets/img/team/niki-eidgah.PNG" class="img-fluid" alt="Niki Eidgah">
+                            <img src="assets/img/team/niki-eidgah.jpg" class="img-fluid" alt="Niki Eidgah">
                             <div class="member-info">
                                 <div class="member-info-content">
                                     <h4>Niki Eidgah</h4>
@@ -106,7 +106,7 @@
                 <div class="swiper-slide">
                     <div class="testimonial-item">
                         <div class="member">
-                            <img src="assets/img/team/nazanin-torabi.jpeg" class="img-fluid" alt="Nazanin Torabi">
+                            <img src="assets/img/team/nazanin-torabi.jpg" class="img-fluid" alt="Nazanin Torabi">
                             <div class="member-info">
                                 <div class="member-info-content">
                                     <h4>Nazanin Torabi</h4>
@@ -124,7 +124,7 @@
                 <div class="swiper-slide">
                     <div class="testimonial-item">
                         <div class="member">
-                            <img src="assets/img/team/maryam-dadras.jpeg" class="img-fluid" alt="Maryam Dadras">
+                            <img src="assets/img/team/maryam-dadras.jpg" class="img-fluid" alt="Maryam Dadras">
                             <div class="member-info">
                                 <div class="member-info-content">
                                     <h4>Maryam Dadras</h4>
