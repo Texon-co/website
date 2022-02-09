@@ -7,7 +7,7 @@
 
                 <div class="col-lg-9 col-md-6 footer-contact">
                     <h3 class="logo">
-                        <a href="index.html"><img src="./assets/img/logo.svg" alt="Texon Logo"> Texon</a>
+                        <a href="/"><img src="/assets/img/logo.svg" alt="Texon Logo"> Texon</a>
                     </h3>
                     
                         <!-- <p><i class="fa fa-location-arrow"></i><a href="https://goo.gl/maps/vy2sExsdQn58duba9" target="_blank">تهران، خیابان ولیعصر، مرکز کامپیوتر ایران، طبقه زیرهمکف، واحد 564</a>
@@ -31,11 +31,11 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#why">Why Us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#team">Team</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/#about">About us</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/#services">Services</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/#why">Why Us</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/#team">Team</a></li>
                     </ul>
                 </div>
 
