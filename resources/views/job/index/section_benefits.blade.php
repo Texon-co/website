@@ -26,7 +26,7 @@
         <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
             {{-- <i class='bx bx-cookie fs-1'></i> --}}
             <i class="bi bi-egg-fried fs-1"></i>
-            <h4>Snack & lunch options</h4>
+            <h4>Snack & Drinks options</h4>
         </div>
 
         <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
