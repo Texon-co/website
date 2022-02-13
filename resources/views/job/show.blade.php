@@ -9,8 +9,6 @@
     <article class="container">
         @include('job.show.section_heading')
         @include('job.show.section_shortDescription')
-        @include('job.show.section_duties')
-        @include('job.show.section_gains')
-        @include('job.show.section_benefits')
+        @include('job.show.section_description')
     </article>
 @endsection
