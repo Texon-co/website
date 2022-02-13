@@ -134,7 +134,7 @@ class JobController extends Controller
             'job' => $job,
             'success' => true
         ];
-        Mail::to($application->email)->send(new ApplicationReceived($application));
+        Mail::to($application->email)->queue(new ApplicationReceived($application));
         return view('job.application', $data);
     }
 }
