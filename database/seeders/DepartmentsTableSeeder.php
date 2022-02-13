@@ -28,7 +28,6 @@ class DepartmentsTableSeeder extends Seeder
                 ['name' => 'Style & Creative'],
                 ['name' => 'Technology'],
                 ['name' => 'Various'],
-                ['name' => 'Westwing Delivery Service'],
             ]
         );
     }
