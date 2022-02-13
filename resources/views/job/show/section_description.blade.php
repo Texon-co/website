@@ -1,4 +1,4 @@
 <!-- ======= Description Section ======= -->
 <section id="description">
-    {!! $job->duties !!}
+    {!! $job->description !!}
 </section><!-- End Description Section -->
