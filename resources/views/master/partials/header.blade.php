@@ -2,7 +2,7 @@
 <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
         <h1 class="logo">
-            <img src="/assets/img/logo.svg" alt="Texon Logo">
+            <img src="{{asset('img/logo.svg')}}" alt="Texon Logo">
             <a href="/">Texon</a>
         </h1>
         <!-- Uncomment below if you prefer to use an image logo -->

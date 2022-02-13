@@ -9,7 +9,7 @@
     @show
     <main id="main">
         @yield('main')
-    </main><!-- End #main -->
+    </main>
     @include('master.partials.footer')
     @includeIf('master.partials.preloader', ['perloader' => true])
     @include('master.partials.backToTop')

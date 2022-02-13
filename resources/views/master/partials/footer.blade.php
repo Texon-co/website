@@ -7,7 +7,7 @@
 
                 <div class="col-lg-9 col-md-6 footer-contact">
                     <h3 class="logo">
-                        <a href="/"><img src="/assets/img/logo.svg" alt="Texon Logo"> Texon</a>
+                        <a href="/"><img src="{{asset('img/logo.svg')}}" alt="Texon Logo"> Texon</a>
                     </h3>
                     
                         <!-- <p><i class="fa fa-location-arrow"></i><a href="https://goo.gl/maps/vy2sExsdQn58duba9" target="_blank">تهران، خیابان ولیعصر، مرکز کامپیوتر ایران، طبقه زیرهمکف، واحد 564</a>
