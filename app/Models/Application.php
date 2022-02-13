@@ -25,4 +25,8 @@ class Application extends Model
         'resume_file',
         'additional_file'
     ];
+
+    public function job() {
+        return $this->belongsTo(Job::class);
+    }
 }
