@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+
 use App\Models\Application;
 use App\Models\Department;
 use App\Models\InternshipDuration;
@@ -10,6 +12,7 @@ use App\Models\Job;
 use App\Models\JobFoundWay;
 use App\Models\JobRole;
 use App\Models\Location;
+use App\Mail\ApplicationReceived;
 
 class JobController extends Controller
 {
@@ -126,11 +129,12 @@ class JobController extends Controller
             $data['additional_file'] = "/storage/$uploadPath/$additionalFileName";
         }
         $data['job_id'] = $job->id;
-        Application::create($data);
+        $application = Application::create($data);
         $data = [
             'job' => $job,
             'success' => true
         ];
+        Mail::to($application->email)->send(new ApplicationReceived($application));
         return view('job.application', $data);
     }
 }
