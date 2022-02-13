@@ -14,10 +14,11 @@ class ReplaceColumnsOnJobsTable extends Migration
     public function up()
     {
         Schema::table('jobs', function (Blueprint $table) {
+            $table->dropColumn('short_description');
             $table->dropColumn('duties');
             $table->dropColumn('gains');
             $table->dropColumn('benefits');
-            $table->after('short_description', function ($table) {
+            $table->after('title', function ($table) {
                 $table->longText('description');
             });
         });
@@ -32,7 +33,8 @@ class ReplaceColumnsOnJobsTable extends Migration
     {
         Schema::table('jobs', function (Blueprint $table) {
             $table->dropColumn('description');
-            $table->after('short_description', function ($table) {
+            $table->after('title', function ($table) {
+                $table->text('short_description');
                 $table->text('duties');
                 $table->text('gains');
                 $table->text('benefits');
