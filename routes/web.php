@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/privacy-policy', function () {
-    return view('privacy_policy');
-});
+// Route::get('/privacy-policy', function () {
+//     return view('privacy_policy');
+// });
 
 Route::group(['prefix' => 'job-opportunities'], function () {
     Route::get('/', [JobController::class, 'index']);

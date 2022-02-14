@@ -11,9 +11,10 @@
                 Apply
             </a>
             <br/>
-            <p class="fw-lighter text-center">
+            {{-- <p class="fw-lighter text-center">
                 By applying you accept the <a href="/privacy-policy" class="text-decoration-none">privacy policy</a>.
-            </p>
+            </p> --}}
         </div>
     </div>
-</section><!-- End Heading Section -->
+</section>
+<!-- End Heading Section -->
