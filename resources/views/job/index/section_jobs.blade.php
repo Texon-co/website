@@ -22,7 +22,7 @@
             <h2 class="text-capitalize">Job Opportunities</h2>
         </div>
         <div class="input-group p-5">
-            <div class="col-md-4 p-2">
+            <div class="col-md-4 col-12 p-2">
                 <select name="departments" id="departments" class="form-select" aria-placeholder="Department">
                     <option value="" selected class="text-capitalize">Department</option>
                     @foreach ($departments as $department)
@@ -30,7 +30,7 @@
                     @endforeach
                 </select>
             </div>
-            <div class="col-md-4 p-2">
+            <div class="col-md-4 col-12 p-2">
                 <select name="locations" id="locations" class="form-select" aria-placeholder="Location">
                     <option value="" selected class="text-capitalize">Location</option>
                     @foreach ($locations as $location)
@@ -38,7 +38,7 @@
                     @endforeach
                 </select>
             </div>
-            <div class="col-md-4 p-2">
+            <div class="col-md-4 col-12 p-2">
                 <select name="job-roles" id="job-roles" class="form-select" aria-placeholder="Job Role">
                     <option value="" selected class="text-capitalize">Job Role</option>
                     @foreach ($jobRoles as $jobRole)
@@ -51,4 +51,5 @@
         </div>
     </div>
     <script src="/assets/js/sections/job_opportunities.js"></script>
-</section><!-- End Job Opportunities Section -->
+</section>
+<!-- End Job Opportunities Section -->

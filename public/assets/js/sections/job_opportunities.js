@@ -34,20 +34,20 @@ function filterJobsArray() {
 
 function generateJobItem (title, location, role, link) {
     return (
-    `<div class="row">
-        <div class="col-md-6 text-capitalize">
+    `<tr>
+        <td class="col-md-6 text-capitalize">
             ${title}
-        </div>
-        <div class="col-md-2 text-capitalize">
+        </td>
+        <td class="col-md-2 text-capitalize">
             ${location}
-        </div>
-        <div class="col-md-2 text-capitalize">
+        </td>
+        <td class="col-md-2 text-capitalize">
             ${role}
-        </div>
-        <div class="col-md-2">
+        </td>
+        <td class="col-md-2">
             <a href="${link}" class="text-capitalize">See Job Details</a>
-        </div>
-    </div>
+        </td>
+    </tr>
     `
     )
 }
@@ -67,8 +67,20 @@ function generateDepartmentJobsList (departmentName, departmentJobs) {
                 </button>
             </h2>
             <div id="${strippedName}_jobs" class="accordion-collapse collapse" aria-labelledby="${strippedName}_heading" data-bs-parent="#jobs">
-                <div class="accordion-body">
-                    ${jobItems}
+                <div class="accordion-body table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th scope="col">Title</th>
+                                <th scope="col">Location</th>
+                                <th scope="col">Role</th>
+                                <th scope="col">Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${jobItems}
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
