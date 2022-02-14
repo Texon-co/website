@@ -15,7 +15,7 @@
                 <tbody>
                     <tr>
                     <td style="line-height: 24px; font-size: 16px; margin: 0;" align="left">
-                        <h2 style='padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 32px; line-height: 38.4px; font-family: "Krub", sans-serif; margin: 0;' align="left">
+                        <h2 style='padding-top: 0; padding-bottom: 0; font-weight: 500; vertical-align: baseline; font-size: 20px; line-height: 24px; font-family: "Krub", sans-serif; margin: 0;' align="left">
                         Dear {{$application->first_name}}
                         </h2>
                         <p style="line-height: 24px; font-size: 16px; width: 100%; margin: 0;" align="left">
