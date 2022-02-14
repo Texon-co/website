@@ -41,7 +41,7 @@
             <h4>Flexible Schedules</h4>
         </div>
 
-        <div class="col-lg-6 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-6 col-md-12 content-item" data-aos="fade-up" data-aos-delay="200">
             {{-- <i class='bx bx-line-chart fs-1'></i> --}}
             <i class="bi bi-graph-up-arrow fs-1"></i>
             <h4>Skills Development</h4>
