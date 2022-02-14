@@ -61,7 +61,7 @@
                                                 align="left" valign="top">
                                                 <a href="{{url('/')}}"
                                                     style="color: #00465c; text-decoration: none;"><img
-                                                        src="{{ $message->embed('assets/img/logo.svg')}}"
+                                                        src="{{ $message->embed(public_path('assets/img/logo.svg'))}}"
                                                         class="logo" alt="Texon Logo"
                                                         style="height: 100%; line-height: 100%; outline: none; text-decoration: none; display: block; width: 100%; border-style: none; border-width: 0;"></a>
                                             </td>
@@ -120,17 +120,17 @@
                                                 <a href="https://twitter.com/texonco"
                                                     class="twitter" target="_blank"
                                                     style="color: #00465c; text-decoration: none; font-size: 18px; display: inline-block; background-color: #e7eafe; line-height: 1; margin-right: 4px; border-radius: 5px; text-align: center; width: 36px; height: 36px; transition: 0.3s; padding: 8px 0;">
-                                                    <img src="{{ $message->embed('assets/img/email/twitter.svg') }}">  
+                                                    <img src="{{ $message->embed(public_path('assets/img/email/twitter.svg')) }}">  
                                                 </a>
                                                 <a href="https://www.instagram.com/texon.co/"
                                                     class="instagram" target="_blank"
                                                     style="color: #00465c; text-decoration: none; font-size: 18px; display: inline-block; background-color: #e7eafe; line-height: 1; margin-right: 4px; border-radius: 5px; text-align: center; width: 36px; height: 36px; transition: 0.3s; padding: 8px 0;">
-                                                    <img src="{{ $message->embed('assets/img/email/instagram.svg') }}">
+                                                    <img src="{{ $message->embed(public_path('assets/img/email/instagram.svg')) }}">
                                                 </a>
                                                 <a href="https://www.linkedin.com/company/texonco/mycompany/"
                                                     class="linkedin" target="_blank"
                                                     style="color: #00465c; text-decoration: none; font-size: 18px; display: inline-block; background-color: #e7eafe; line-height: 1; margin-right: 4px; border-radius: 5px; text-align: center; width: 36px; height: 36px; transition: 0.3s; padding: 8px 0;">
-                                                    <img src="{{ $message->embed('assets/img/email/linkedin.svg') }}">
+                                                    <img src="{{ $message->embed(public_path('assets/img/email/linkedin.svg')) }}">
                                                 </a>
                                             </div>
                                         </td>
