@@ -118,7 +118,7 @@ class JobController extends Controller
             'gross_salary_expectaion_per_month' => 'salary expectation',
         ]);
         $lastId = Application::orderByDesc('id')->first()?->id ?? 0;
-        $newId = $lastId++;
+        $newId = ++$lastId;
         $uploadPath = "Applications/id_$newId";
         $resumeFileName = 'resume_' . $request->resume_file->getClientOriginalName();
         $request->file('resume_file')->storeAs($uploadPath, $resumeFileName, 'public');
