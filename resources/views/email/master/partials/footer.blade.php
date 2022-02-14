@@ -119,17 +119,17 @@
                                                 style="" align="center">
                                                 <a href="https://twitter.com/texonco"
                                                     class="twitter" target="_blank"
-                                                    style="color: #00465c; text-decoration: none; font-size: 18px; display: inline-block; background-color: #e7eafe; line-height: 1; margin-right: 4px; border-radius: 5px; text-align: center; width: 36px; height: 36px; transition: 0.3s; padding: 8px 0;">
+                                                    style="color: #00465c; text-decoration: none; font-size: 18px; display: inline-block; background-color: #e7eafe; line-height: 1; margin-right: 4px; border-radius: 5px; text-align: center; width: 36px; transition: 0.3s; padding: 8px 0;">
                                                     <img src="{{ $message->embed(public_path('assets/img/email/twitter.png')) }}">  
                                                 </a>
                                                 <a href="https://www.instagram.com/texon.co/"
                                                     class="instagram" target="_blank"
-                                                    style="color: #00465c; text-decoration: none; font-size: 18px; display: inline-block; background-color: #e7eafe; line-height: 1; margin-right: 4px; border-radius: 5px; text-align: center; width: 36px; height: 36px; transition: 0.3s; padding: 8px 0;">
+                                                    style="color: #00465c; text-decoration: none; font-size: 18px; display: inline-block; background-color: #e7eafe; line-height: 1; margin-right: 4px; border-radius: 5px; text-align: center; width: 36px; transition: 0.3s; padding: 8px 0;">
                                                     <img src="{{ $message->embed(public_path('assets/img/email/instagram.png')) }}">
                                                 </a>
                                                 <a href="https://www.linkedin.com/company/texonco/mycompany/"
                                                     class="linkedin" target="_blank"
-                                                    style="color: #00465c; text-decoration: none; font-size: 18px; display: inline-block; background-color: #e7eafe; line-height: 1; margin-right: 4px; border-radius: 5px; text-align: center; width: 36px; height: 36px; transition: 0.3s; padding: 8px 0;">
+                                                    style="color: #00465c; text-decoration: none; font-size: 18px; display: inline-block; background-color: #e7eafe; line-height: 1; margin-right: 4px; border-radius: 5px; text-align: center; width: 36px; transition: 0.3s; padding: 8px 0;">
                                                     <img src="{{ $message->embed(public_path('assets/img/email/linkedin.png')) }}">
                                                 </a>
                                             </div>
