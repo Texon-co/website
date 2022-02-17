@@ -5,10 +5,10 @@
             <h2>About Texon</h2>
         </div>
         <div class="row content">
-            <p>Nowadays, with rapid technological advancements and developments, system software and application have the power to make your organization thrive or fail your organization. It's essential if you want to satisfy ever-changing client expectations, stay ahead of the competition, and keep your business functioning eiciently — every day.</p>
+            <p>Nowadays, with rapid technological advancements and developments, system software and application have the power to make your organization thrive or fail your organization. It's essential if you want to satisfy ever-changing client expectations, stay ahead of the competition, and keep your business functioning efficiently — every day.</p>
             <p>Is your software genuinely fostering innovation, or has it become a stumbling block?</p>
             <p>Too many companies are falling behind the curve as a result of out-of-date legacy or third-party applications, or a scarcity of experienced labour to create and maintain creative software outsourcing solutions.</p>
-            <p>Texon oers technology consulting, engineering, and software development services. Organizations can minimize operating expenses, speed innovation, focus on their core business motives, and have more trust in data security and compliance by taking advantage of everything we have to oer.</p>
+            <p>Texon offers technology consulting, engineering, and software development services. Organizations can minimize operating expenses, speed innovation, focus on their core business motives, and have more trust in data security and compliance by taking advantage of everything we have to offer.</p>
             <p>Our specialists will collaborate with you to determine your digital requirements concerning your company's vision and objectives. Texon experts have the knowledge and experience to help you navigate and support your business through its journey.</p>
         </div>
         <div class="content container d-flex align-items-center justify-content-center" data-aos="fade-up">

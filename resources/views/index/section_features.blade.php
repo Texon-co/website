@@ -14,7 +14,7 @@
                 <h3>Developing <span class="colored">Customized<br>
                     Software</span> and Systems</h3>
                 <p>
-                    Get access to the talent, resources, and knowledge you need to create unique software and system solutions that fully support business processes, provide a consistent user ...
+                    Get access to the talent, resources, and knowledge you need to create unique software and system solutions that fully support business processes, provide a consistent user experience, and facilitate business originality.
                 </p>
                 <!-- <ul>
                     <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -34,7 +34,7 @@
                 <h3><span class="colored">Customization</span> and <span class="colored">Configuration</span><br>
                     of the Application</h3>
                 <p>
-                    Customize and modify COTS business software to match specific requirements and to completely support simplified operations, ideation, and growth.
+                    Customize and modify COTS business software to match specific requirements and to completely support simplified operations, ideation, and growth. 
                 </p>
             </div>
         </div>

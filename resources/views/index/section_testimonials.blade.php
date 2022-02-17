@@ -4,7 +4,7 @@
 
         <div class="section-title">
             <h2>Our Team</h2>
-            <p>Texon is a software and mobile app development firm with a world-class team of data analysts, programmers, designers, and talented individuals. We're motivated to use cuing-edge technology to bring novel ideas to life.</p>
+            <p>Texon is a software and mobile app development firm with a world-class team of data analysts, programmers, designers, and talented individuals. We're motivated to use cutting-edge technology to bring novel ideas to life.</p>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
