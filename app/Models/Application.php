@@ -23,7 +23,8 @@ class Application extends Model
         'gross_salary_expectation_per_month',
         'internship_duration_id',
         'resume_file',
-        'additional_file'
+        'additional_file',
+        'status'
     ];
 
     public function job() {
