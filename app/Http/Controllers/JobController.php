@@ -12,7 +12,7 @@ use App\Models\Job;
 use App\Models\JobFoundWay;
 use App\Models\JobRole;
 use App\Models\Location;
-use App\Mail\ApplicationReceived;
+use App\Mail\Application\Received;
 
 class JobController extends Controller
 {
@@ -134,7 +134,7 @@ class JobController extends Controller
             'job' => $job,
             'success' => true
         ];
-        Mail::to($application->email)->queue(new ApplicationReceived($application));
+        Mail::to($application->email)->queue(new Received($application));
         return view('job.application', $data);
     }
 }
