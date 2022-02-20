@@ -37,7 +37,7 @@ class Accepted extends Mailable
     public function build()
     {
         return $this->from('texoncareers_noreply@texon-co.com', 'Texon Careers')
-                    ->subject('Texon Job Application Accepted - Congratulations')
+                    ->subject('Your application to Texon')
                     ->view('email.application.accepted');
     }
 }
