@@ -17,9 +17,9 @@
                     <td style="line-height: 24px; font-size: 16px; margin: 0;" align="left">
 
                         @yield('heading')
-
+                        <br>
                         @yield('content')
-
+                        <br>
                         @yield('signoff')
 
                     </td>

@@ -10,13 +10,13 @@
     <p style="line-height: 24px; font-size: 16px; width: 100%; margin: 0;" align="left">
         Thank you for taking the time to meet with our team about the  <b>{{$application->job->title}}</b> role at Texon. It was a pleasure to learn more about your skills and accomplishments.
     </p>
-    <p style="line-height: 24px; font-size: 16px; width: 100%; margin: 0;" align="left">
+    <p style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; margin-top:24px;" align="left">
         Unfortunately, our team did not select you for further consideration.
     </p>
-    <p style="line-height: 24px; font-size: 16px; width: 100%; margin: 0;" align="left">
+    <p style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; margin-top:24px;" align="left">
         Now that we&#8217;ve had the chance to know more about you, we will be keeping your resume on file for future openings that better fit your profile.
     </p>
-    <p style="line-height: 24px; font-size: 16px; width: 100%; margin: 0;" align="left">
+    <p style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; margin-top:24px;" align="left">
         Thanks again for your interest in Texon and best of luck with your job search.
     </p>
 @endsection
