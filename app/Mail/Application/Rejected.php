@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Mail;
+namespace App\Mail\Application;
 
 use App\Models\Application;
 use Illuminate\Bus\Queueable;
@@ -8,7 +8,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class ApplicationReceived extends Mailable
+class Rejected extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -37,7 +37,7 @@ class ApplicationReceived extends Mailable
     public function build()
     {
         return $this->from('texoncareers_noreply@texon-co.com', 'Texon Careers')
-                    ->subject('Texon Job Application Recieved - Thanks')
-                    ->view('email.application_received');
+                    ->subject('Your application to Texon')
+                    ->view('email.application.rejected');
     }
 }
