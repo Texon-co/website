@@ -7,10 +7,10 @@
 @endsection
 
 @section('content')
-    <p style="line-height: 24px; font-size: 16px; width: 100%; margin: 0;" align="left">
+    <p style="line-height: 24px; font-size: 16px; width: 100%; margin: 0" align="left">
         We acknowledge receipt of your resume and application for <b>{{$application->job->title}}</b> at Texon and sincerely appreciate your interest in our company.
     </p>
-    <p style="line-height: 24px; font-size: 16px; width: 100%; margin: 0;" align="left">
+    <p style="line-height: 24px; font-size: 16px; width: 100%; margin: 0; margin-top:24px;" align="left">
         Texon is glad to announce that we reviewed your CV and we liked it. We will get back to you soon with more information. Stay tuned.
     </p>
 @endsection
