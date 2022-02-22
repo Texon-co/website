@@ -122,11 +122,11 @@ class JobController extends Controller
         $uploadPath = "Applications/id_$newId";
         $resumeFileName = 'resume_' . $request->resume_file->getClientOriginalName();
         $request->file('resume_file')->storeAs($uploadPath, $resumeFileName, 'public');
-        $data['resume_file'] = "/storage/$uploadPath/$resumeFileName";
+        $data['resume_file'] = "/$uploadPath/$resumeFileName";
         if ($request->hasFile('additional_file')) {
             $additionalFileName = 'additional_' . $request->additional_file->getClientOriginalName();
             $request->file('additional_file')->storeAs($uploadPath, $additionalFileName, 'public');
-            $data['additional_file'] = "/storage/$uploadPath/$additionalFileName";
+            $data['additional_file'] = "/$uploadPath/$additionalFileName";
         }
         $data['job_id'] = $job->id;
         $application = Application::create($data);
