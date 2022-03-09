@@ -6,12 +6,12 @@
                         <div class="d-flex flex-column">
                             <h3 class="text-capitalize fs-1 p-2">{{$project->title}}</h3>
                             <p class="p-2 mt-3 mb-5">{{$project->details}}</p>
-                            <a href="{{$project->link}}"
+                            <a href="{{$project->website}}"
                                 class="btn btn-primary p-2">Go to demo</a>
                         </div>
                     </div>
                     <div class="col">   
-                        <video controls class="video" preload='none' poster={{"storage" . "/"
+                        <video controls width="300" class="video" preload='none' poster={{"storage" . "/"
                         . $project->poster}}>
                             <source src="{{ "storage" . "/"
                                 . json_decode($project->video)[0]->download_link }}" type="video/mp4">

@@ -10,11 +10,11 @@ class CreateProjectsTable extends Migration
     {
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
-            $table->string('title',10);
+            $table->string('title');
             $table->text('details');
-            $table->text('video');
+            $table->string('video');
             $table->string('poster');
-            $table->string('link');
+            $table->string('website');
             $table->timestamps();
         });
     }
