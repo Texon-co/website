@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\JobController;
+use App\Http\Controllers\ProjectController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,7 +29,7 @@ Route::group(['prefix' => 'job-opportunities'], function () {
     Route::get('/{job}/application', [JobController::class, 'getApplication']);
     Route::post('/{job}/application', [JobController::class, 'submitApplication']);
 });
-
+Route::get('projects', [ProjectController::class, 'index'])->name('project.index');
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
