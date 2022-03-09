@@ -18,7 +18,6 @@
                 <li><a class="nav-link" href="/job-opportunities">Career</a></li>
                 <li><a class="nav-link" href="/projects">Projects</a></li>
             </ul>
-            
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
     </div>
