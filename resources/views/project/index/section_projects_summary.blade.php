@@ -10,7 +10,7 @@
                 <h2 class="text-capitalize fs-1 p-2">{{$project->title}}</h2>
                 <h5 class="p-2 overflow-auto">{{$project->details}}</h4>
                 <a href="{{$project->website}}"
-                    class="btn btn-primary p-2">{{$project->web_site_title}}</a>
+                    class="btn btn-primary p-2">{{$project->button_text}}</a>
             </div>
         </div>
     </div> 
