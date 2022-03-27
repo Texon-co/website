@@ -16,7 +16,7 @@
                 <li><a class="nav-link scrollto" href="/#team">Team</a></li>
                 <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
                 <li><a class="nav-link" href="/job-opportunities">Career</a></li>
-                <li><a class="nav-link" href="/projects">Projects</a></li>
+                {{-- <li><a class="nav-link" href="/projects">Projects</a></li> --}}
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
